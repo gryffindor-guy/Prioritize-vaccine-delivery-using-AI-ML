@@ -43,7 +43,7 @@ Python, Java or any programming language like Julia,Haskell etc., EY’s proprie
 <h1> Team name:</h1>  
 Team Fusion
 
-<h1>Team members</h1>
+<h1>Team members:</h1>
 
 <ul>
   <li>Mounika</li>
