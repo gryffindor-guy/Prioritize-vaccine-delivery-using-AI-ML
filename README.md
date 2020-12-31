@@ -36,6 +36,8 @@ Evaluate a ranking algorithm to identify prioritization metrics.
 :arrow_right: Prediction :
 Supply the vaccine in the area, which was clustered with the more of covid cases, frontline health workers, doctors, people over 50 years of age and people with co-morbidities
 
+**Currently under feature engineering process, we will soon continue the further clustering and prediction processes**
+
 ### Technology and tools:
 
 Python and several python libraries includes matplotlib, pandas, numpy and seaborn.
