@@ -1,6 +1,6 @@
 # Prioritize-vaccine-delivery-using-AI-ML
 
-This is one of the challenge in EY Techathon 2021: #iSolve4aBillion Challenge
+This is one of the challenge in EY Techathon 2021: #iSolve4aBillion
 ### Description : 
 As the country gears up to unveil, register and approve its choice of vaccine candidates against COVID-19, the first set of population expected to be immunized may be frontline health workers, doctors, people over 50 years of age and people with co-morbidities. The challenge for healthcare administrators would be  prioritizing within this population, considering limited availability of vaccines initially.
 
