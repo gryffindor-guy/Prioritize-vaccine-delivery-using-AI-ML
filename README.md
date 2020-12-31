@@ -5,6 +5,7 @@ As the country gears up to unveil, register and approve its choice of vaccine ca
 
 An AI-based solution can help identify priority targets groups (e.g. which regions, what demography, which clusters etc.) for various levels of vaccine access. Relevant and publicly available data sources (e.g. population demographics, electoral rolls, health survey information, city/region density, spread, clusterization etc.) can be used to develop prioritization maps, factoring the limited resources (supply of vaccine, healthcare personnel, cold-chain facilities etc.) available to health authorities and showing how it will change as more of this population gets vaccinated over a period of time.
 
-# solution
+# Solution :
 
-### Data Collection 
+### Data Collection :
+* 
