@@ -22,7 +22,7 @@ Gather the data based on covid-19 from states and central resources and health s
 
 ### Data Analysis 🔍
 
-:diamond_shape_with_a_dot_inside: **To find hidden patterns and relationship between features**
+:diamond_shape_with_a_dot_inside: **To find the hidden patterns and relationship between features**
 
 :arrow_right: Feature engineering and Feature selection :
 Selecting the best features that are more correlated to find the target label.
