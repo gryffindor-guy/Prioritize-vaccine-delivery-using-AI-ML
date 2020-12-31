@@ -11,7 +11,7 @@ To provide predictive model to find the most affected people who are suffering f
 
 
 ## Solution Approach :
-<h3> Datacollections :</h3> 
+* Datacollections : 
 Gather the data based on covid-19 from states and central resources and health survey information in India
 
   1. https://www.kaggle.com/imdevskp/covid19-corona-virus-india-dataset?select=patients_data.csv
@@ -21,15 +21,16 @@ Gather the data based on covid-19 from states and central resources and health s
 <h3> Data Analysis :</h3>
 To find correlation between attributes
 
-<h3> Feature engineering and Feature selection :</h3> Selecting the best features that are more correlated to find the target label.
+* Feature engineering and Feature selection :
+Selecting the best features that are more correlated to find the target label.
 
-<h3> Machine Learning Models :</h3>
+* Machine Learning Models :
 Train the data on multiple clustering models (K-means, Hierarchical clustering) with hyper parameters. 
 
-<h3> Evaluate ranking algorithm :</h3>
+* Evaluate ranking algorithm :
 Evaluate a ranking algorithm to identify prioritization metrics.
 
-<h3> Prediction :</h3>
+* Prediction :
 Supply the vaccine in the area, which was clustered with the more of covid cases, frontline health workers, doctors, people over 50 years of age and people with co-morbidities
 
 ### Technology and tools:
