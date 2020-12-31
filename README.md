@@ -10,9 +10,15 @@ An AI-based solution can help identify priority targets groups (e.g. which regio
 To provide predictive model to find the most affected people who are suffering from to supply vaccine for them first (present people suffering from covid, frontline health workers, doctors, people over 50 years of age and people with co-morbidities) and then for the remaining people based on vaccine delivery
 
 
-## Solution Approach :
+### Solution Approach :
 * Datacollections : 
 Gather the data based on covid-19 from states and central resources and health survey information in India
+* Data Pre-processing :
+Which includes Data cleaning, Data reduction and finding incorrect entries(and deleting them).
+* Exploratory Data Analysis :
+Creating the graphs using the data and understanding them by applying statistical measures.
+* predictive model : 
+We are going to build a predictive model that recommends certain groups,segments for vaccination.
 
 
 
@@ -21,19 +27,7 @@ Gather the data based on covid-19 from states and central resources and health s
 
 
 
-* Data Analysis :
-To find correlation between attributes
-
-* Feature engineering and Feature selection :
-Selecting the best features that are more correlated to find the target label.
-
-* Machine Learning Models :
-Train the data on multiple clustering models (K-means, Hierarchical clustering) with hyper parameters. 
-
-* Evaluate ranking algorithm :
-Evaluate a ranking algorithm to identify prioritization metrics.
-
-
+# Data Analysis
 
 
 
