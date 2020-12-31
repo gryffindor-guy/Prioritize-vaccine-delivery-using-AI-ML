@@ -21,8 +21,7 @@ Gather the data based on covid-19 from states and central resources and health s
 <h3> Data Analysis :</h3>
 To find correlation between attributes
 
-<h3> Feature engineering and Feature selection :</h3>
-Selecting the best features that are more correlated to find the target label.
+<h3> Feature engineering and Feature selection :</h3> Selecting the best features that are more correlated to find the target label.
 
 <h3> Machine Learning Models :</h3>
 Train the data on multiple clustering models (K-means, Hierarchical clustering) with hyper parameters. 
