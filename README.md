@@ -33,6 +33,10 @@ Evaluate a ranking algorithm to identify prioritization metrics.
 * Prediction :
 Supply the vaccine in the area, which was clustered with the more of covid cases, frontline health workers, doctors, people over 50 years of age and people with co-morbidities
 
+### Technology and tools:
+
+
+
 
 
 
