@@ -14,8 +14,9 @@ To provide predictive model to find the most affected people who are suffering f
 * Datacollections : 
 Gather the data based on covid-19 from states and central resources and health survey information in India
 
-1. https://www.kaggle.com/imdevskp/covid19-corona-virus-india-dataset?select=patients_data.csv
-2. https://www.kaggle.com/imdevskp/corona-virus-report
+  1. https://www.kaggle.com/imdevskp/covid19-corona-virus-india-dataset?select=patients_data.csv
+  2. https://www.kaggle.com/imdevskp/corona-virus-report
+  (These are the datasets we refered till now)
 
 * Data Analysis :
 To find correlation between attributes
@@ -29,7 +30,7 @@ Train the data on multiple clustering models (K-means, Hierarchical clustering) 
 * Evaluate ranking algorithm :
 Evaluate a ranking algorithm to identify prioritization metrics.
 
-
+* Prediction :
 Supply the vaccine in the area, which was clustered with the more of covid cases, frontline health workers, doctors, people over 50 years of age and people with co-morbidities
 
 
