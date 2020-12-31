@@ -35,7 +35,7 @@ Supply the vaccine in the area, which was clustered with the more of covid cases
 
 ### Technology and tools:
 
-
+Python, Java or any programming language like Julia,Haskell etc., EY’s proprietary AI platform – ASpace, web application framework.
 
 
 
