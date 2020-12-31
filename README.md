@@ -21,12 +21,4 @@ Gather the data based on covid-19 from states and central resources and health s
 
 
 
-# Data Analysis
-
-
-
-
-
-
-
 
