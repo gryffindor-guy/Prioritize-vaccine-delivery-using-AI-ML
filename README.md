@@ -37,7 +37,8 @@ Supply the vaccine in the area, which was clustered with the more of covid cases
 
 Python, Java or any programming language like Julia,Haskell etc., EY’s proprietary AI platform – ASpace, web application framework.
 
-<h1>Team name: </h1>  Team Fusion
+###Team name:  
+Team Fusion
 
 
 
