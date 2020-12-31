@@ -10,7 +10,7 @@ An AI-based solution can help identify priority targets groups (e.g. which regio
 To provide predictive model to find the most affected people who are suffering from to supply vaccine for them first (present people suffering from covid, frontline health workers, doctors, people over 50 years of age and people with co-morbidities) and then for the remaining people based on vaccine delivery
 
 
-## Solution Approach :
+<h1> Solution Approach :</h1>
 
 ### Data Collection : 
 
