@@ -40,7 +40,7 @@ Python, Java or any programming language like Julia,Haskell etc., EY’s proprie
 ### Team name:  
 Team Fusion
 
-<h1>Team members</h1>
+### Team members:
 
 <ul>
   <li>Mounika</li>
