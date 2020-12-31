@@ -11,7 +11,7 @@ To provide predictive model to find the most affected people who are suffering f
 
 
 ## Solution Approach :
-* Datacollections : 
+<h3> Datacollections :</h3> 
 Gather the data based on covid-19 from states and central resources and health survey information in India
 
   1. https://www.kaggle.com/imdevskp/covid19-corona-virus-india-dataset?select=patients_data.csv
