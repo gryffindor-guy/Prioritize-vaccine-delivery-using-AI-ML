@@ -12,7 +12,7 @@ To provide predictive model to find the most affected people who are suffering f
 
 <h1> Solution Approach :</h1>
 
-### Data Collection : 
+### Data Collection: 
 
 Gather the data based on covid-19 from states and central resources and health survey information in India
 
