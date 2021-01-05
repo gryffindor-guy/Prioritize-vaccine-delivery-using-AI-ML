@@ -11,6 +11,90 @@ To provide predictive model to find the most affected people who are suffering f
 
 
 <h1> Solution Approach :</h1>
+## Steps of the Solution 🐾  
+We can divide the whole process of this solution into three major parts.  
+1. Prioritization for the whole **nation**  
+2. Prioritization for the every individual **disrtict**  
+3. UI intigration for the solution  
+
+### Elaborating Further  
+
+#### **1. Prioritization for India** 🔝  
+Here, we'll have to inform that which part or state or population-distribution should get the vaccine, first. For that we have to keep various things into consideration.  
+> States can be classified on the following criterion:  
+> 1. Affect of COVID-19  
+>   * by **zone** (red, orange and green zone by gove.)  
+>   * by **percentage** of population **affected**, out of total  
+>   * by **death VS recovery** ratio  
+> 2. Population Distribution
+>   * by **age-group**  
+>   * by **employment status**  
+>   * by **literacy-rate**  
+> 3. Economy & Development
+>   * **Connectivity** to other states/district (through transportation etc..)  
+>   * **Interaction** among the population  
+
+#### **2. Prioritization for a Particular State** ☝️  
+For a better estimate and results, it is good idea to provide another **prioritization in the state-level**. It will be helpful for the **state governments** to manage the delivery in an optimal way.  
+This prioritization can be done district-wise.  
+> District can be classified on the following criterion:  
+> 1. Affect of COVID-19  
+>   * by **zone** (red, orange and green zone by gove.)  
+>   * by **percentage** of population **affected**, out of total  
+>   * by **death VS recovery** ratio  
+> 2. Population Distribution
+>   * by **age-group**  
+>   * by **rural VS urban** ratio  
+>   * **Interaction** among the population  
+
+#### **3. UI Integration** 💻  
+We wish the home screen to have the following structure:  
+
+```
+    HOME
+    .
+    ├── Map (India)        # Bubble Chart for Priority (district-wise)
+    │
+    ├── 5-States           # with hishest priority 
+    │
+    ├── 5-Districts        # with hishest priority 
+    │
+    ├── Population-Wise    # with hishest priority 
+    │   │
+    │   ├── Top Age-Group 
+    │   │
+    │   └── Top Employees
+    │
+    ├── Live COVID-19 Stats   # Overall India 
+    │
+    └── SEARCH                # Detailed info for any perticular state
+        .
+        .
+        └── ...         
+```
+
+One should be able to discover the information about any perticuler **state** on searching.  
+This new page should consist of the following:  
+
+```
+    STATE
+    .
+    ├── Map (State)        # Bubble Chart for Priority (district-wise)
+    │
+    ├── 5-Districts        # with hishest priority 
+    │
+    ├── Population-Wise    # with hishest priority 
+    │   │
+    │   ├── Top Age-Group 
+    │   │
+    │   └── Top Area          # rural or urban
+    │
+    └── Live COVID-19 Stats   # For current State 
+```
+
+<br />  
+
+## Data-Sources ℹ️  
 
 ### Data Collection: 
 
