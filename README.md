@@ -42,6 +42,9 @@ Supply the vaccine in the area, which was clustered with the more of covid cases
 
 Python and several python libraries includes matplotlib, pandas, numpy and seaborn.
 
+## Link To Colab File:
+https://colab.research.google.com/drive/1a356cJeAS9zz6903pgDIT9tOepc8BM9w#scrollTo=z_DKHnnlhoeS
+
 # Team name:  
 Team Fusion
 
