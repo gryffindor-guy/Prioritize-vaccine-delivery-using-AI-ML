@@ -7,37 +7,43 @@ An AI-based solution can help identify priority targets groups (e.g. which regio
 
 # Solution :
 
-To provide predictive model to find the most affected people who are suffering from to supply vaccine for them first (present people suffering from covid, frontline health workers, doctors, people over 50 years of age and people with co-morbidities) and then for the remaining people based on vaccine delivery
+To provide predictive model to find the most affected people who are suffering from covid-19 to supply vaccine first to required people who might be in critical status(present people suffering from covid, frontline health workers, doctors, people over 50 years of age and people with co-morbidities) and then for the remaining people based on vaccine production status
 
 
 <h1> Solution Approach :</h1>
-## Steps of the Solution 🐾  
+
+## Steps of the Solution 🐾 
+
 We can divide the whole process of this solution into three major parts.  
 1. Prioritization for the whole **nation**  
 2. Prioritization for the every individual **disrtict**  
-3. UI intigration for the solution  
 
-### Elaborating Further  
+### Clear Explaination  
 
-#### **1. Prioritization for India** 🔝  
-Here, we'll have to inform that which part or state or population-distribution should get the vaccine, first. For that we have to keep various things into consideration.  
+#### **1. Prioritization for India**  
+
+Here, we'll have to predict that which part or state or population-distribution should get the vaccine, first. For that, we have to consider some attributes.  
 > States can be classified on the following criterion:  
 > 1. Affect of COVID-19  
->   * by **zone** (red, orange and green zone by gove.)  
->   * by **percentage** of population **affected**, out of total  
->   * by **death VS recovery** ratio  
+>   * by ***zone*** (red, orange and green zone by gove.)  
+>   * by ***percentage*** of population **affected**, out of total  
+>   * by ***death VS recovery*** ratio  
 > 2. Population Distribution
->   * by **age-group**  
->   * by **employment status**  
->   * by **literacy-rate**  
-> 3. Economy & Development
->   * **Connectivity** to other states/district (through transportation etc..)  
+>   * by ***age-group***  
+>   * by ***employment status***  
+>   * by ***literacy-rate*** 
+> 3. Economy & Development status
+>   * **Connectivity** to other states/district i.e; through transportation etc.. 
 >   * **Interaction** among the population  
 
-#### **2. Prioritization for a Particular State** ☝️  
-For a better estimate and results, it is good idea to provide another **prioritization in the state-level**. It will be helpful for the **state governments** to manage the delivery in an optimal way.  
-This prioritization can be done district-wise.  
+#### **2. Prioritization for a Particular State** 
+
+For a better estimate and results, it is good idea to provide another **prioritization in the state-level**. It will be helpful for the **state governments** to manage the delivery of the vaccine according to the vaccine production level.
+
+This prioritization can be done district-wise. 
+
 > District can be classified on the following criterion:  
+
 > 1. Affect of COVID-19  
 >   * by **zone** (red, orange and green zone by gove.)  
 >   * by **percentage** of population **affected**, out of total  
@@ -47,62 +53,19 @@ This prioritization can be done district-wise.
 >   * by **rural VS urban** ratio  
 >   * **Interaction** among the population  
 
-#### **3. UI Integration** 💻  
-We wish the home screen to have the following structure:  
-
-```
-    HOME
-    .
-    ├── Map (India)        # Bubble Chart for Priority (district-wise)
-    │
-    ├── 5-States           # with hishest priority 
-    │
-    ├── 5-Districts        # with hishest priority 
-    │
-    ├── Population-Wise    # with hishest priority 
-    │   │
-    │   ├── Top Age-Group 
-    │   │
-    │   └── Top Employees
-    │
-    ├── Live COVID-19 Stats   # Overall India 
-    │
-    └── SEARCH                # Detailed info for any perticular state
-        .
-        .
-        └── ...         
-```
-
-One should be able to discover the information about any perticuler **state** on searching.  
-This new page should consist of the following:  
-
-```
-    STATE
-    .
-    ├── Map (State)        # Bubble Chart for Priority (district-wise)
-    │
-    ├── 5-Districts        # with hishest priority 
-    │
-    ├── Population-Wise    # with hishest priority 
-    │   │
-    │   ├── Top Age-Group 
-    │   │
-    │   └── Top Area          # rural or urban
-    │
-    └── Live COVID-19 Stats   # For current State 
-```
-
-<br />  
+# Strategy
 
 ## Data-Sources ℹ️  
 
-### Data Collection: 
+### Data Collection:
+
+Here we have to collect data from various sources in order to analysis the data so that we can train our model to prioritize the locations(by clustering) for vaccine delivery. For that we have to gather real-world data from various sources
 
 Gather the data based on covid-19 from states and central resources and health survey information in India
 
   1. https://www.kaggle.com/imdevskp/covid19-corona-virus-india-dataset?select=patients_data.csv
   2. https://www.kaggle.com/imdevskp/corona-virus-report
-  (These are the datasets we refered till now)
+  These are the datasets we refered till now
 
 ### Data Analysis 🔍
 
@@ -115,12 +78,14 @@ Selecting the best features that are more correlated to find the target label.
 Train the data on multiple clustering models (K-means, Hierarchical clustering) with hyper parameters. 
 
 :arrow_right: Evaluate ranking algorithm :
-Evaluate a ranking algorithm to identify prioritization metrics.
+Evaluate a ranking algorithm to prioritize the clusters(locations). This includes several attributes, as clearly mentioned in solution approach above for prioritizing
 
 :arrow_right: Prediction :
-Supply the vaccine in the area, which was clustered with the more of covid cases, frontline health workers, doctors, people over 50 years of age and people with co-morbidities
+Supply the vaccine in the area, which was clustered with the more of covid cases, frontline health workers, doctors, people over 50 years of age and people with co-morbidities (by considering various discussed attributes)
 
-### **Currently under feature engineering process, we will soon continue the further clustering and prediction processes**
+:arrow_right: UI Integration :
+
+
 
 ### Technology and tools:
 
