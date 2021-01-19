@@ -108,3 +108,20 @@ Team Fusion
 </ul>
 
 ## Video's Discussion
+
+1) The way you have implemented technology in building your solution:
+
+1. Prioritization for India
+Here, we'll have to predict that which part or state or population-distribution should get the vaccine, first. For that, we have to consider some attributes.
+States and Districts can be classified on the following criterion:
+Effect of COVID-19
+•	by zone (red, orange and green zone by government.)
+•	by percentage of population affected, out of total
+•	by death VS recovery ratio
+Population Distribution
+•	by age-group
+•	by employment status
+•	by literacy-rate
+Economy & Development
+•	Connectivity to other states/district i.e.; through transportation etc.
+•	Interaction among the population
