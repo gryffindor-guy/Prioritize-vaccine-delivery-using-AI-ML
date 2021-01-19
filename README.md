@@ -111,7 +111,7 @@ Team Fusion
 
 1) The way you have implemented technology in building your solution:
 
-1. Prioritization for India
+### Prioritization for India
 
 Here, we'll have to predict that which part or state or population-distribution should get the vaccine, first. For that, we have to consider some attributes.
 
@@ -126,6 +126,7 @@ Effect of COVID-19
 •	by death VS recovery ratio
 
 Population Distribution
+
 •	by age-group
 
 •	by employment status
@@ -133,6 +134,7 @@ Population Distribution
 •	by literacy-rate
 
 Economy & Development
+
 •	Connectivity to other states/district i.e.; through transportation etc.
 
 •	Interaction among the population
