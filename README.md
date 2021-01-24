@@ -97,7 +97,15 @@ We have builded an Interactive Dashboard for visual Representation of covid 19 R
 You can check our dashboard here : LINK
 
 ### Technology and tools:
-
+python
+reactjs
+machine learning (Pandas, numpy, matplotlib, seaborn,K-means)
+recat redux
+react hooks
+html
+css
+js
+jsx
 
 # Team name:  
 Team Fusion
