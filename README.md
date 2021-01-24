@@ -40,6 +40,7 @@ We have collected data from the below resources:
 
   1. https://www.kaggle.com/imdevskp/covid19-corona-virus-india-dataset?select=patients_data.csv
   2. https://www.kaggle.com/imdevskp/corona-virus-report
+  3. https://www.kaggle.com/danofer/india-census?select=india-districts-census-2011.csv
 
 ### Data preprocessing 
 
