@@ -98,9 +98,6 @@ You can check our dashboard here : LINK
 ### Technology and tools:
 
 
-## Link To Colab File:
-https://colab.research.google.com/drive/1-xskYG3sgq1UoSeDN2cUdYlybt0yX0Gj#scrollTo=06pE0svcCR2H
-
 # Team name:  
 Team Fusion
 
