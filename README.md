@@ -14,16 +14,62 @@ To provide predictive model to find the most affected people who are suffering f
 
 ## Steps of the Solution 🐾 
 
-We can divide the whole process of this solution into three major parts.  
-1. Prioritization for the whole **nation**  
-2. Prioritization for the every individual **disrtict**  
+We can divide the whole process of this solution into small parts as mentioned below.  
+1. Data Collection and Preprocessing
+2. Performing Exploratory Data Analysis 
+3. Feature Engineering
+4. Traing Machine Learning Model
+5. Model Deployment
+6. Building Interactive Dashboard
 
-### Clear Explaination  
+# Strategy
+
+# Clear Explaination of Solution Approach :
+ 
+## Data Collection and Preprocessing:
+
+Here we have collected data from various sources from internet in order to analysis the data, so that we can train our model to prioritize the locations for vaccine delivery. For that purpose we have collected the below Data:
+1. State and district-wise data on COVID-19 containing confirmed, active, recovered and death cases.
+2. Population density data including gender data
+3. Health Workers and Doctors data in the states
+4. Age distribution of population
+5. People data with comorbidities
+
+### Data-Sources ℹ️ 
+We have collected data from the below resources:
+
+  1. https://www.kaggle.com/imdevskp/covid19-corona-virus-india-dataset?select=patients_data.csv
+  2. https://www.kaggle.com/imdevskp/corona-virus-report
+
+### Data preprocessing 
+
+Here we have combined the data that we collected from various resources and cleaned the data by taking care of NAN values.
+
+## Exploratory Data Analysis:
+
+Here we have visualized the data in order to observe the hidden insights from the data which are very useful in model predictions. Here we have performed several visualizations using several libraries and packages. You can have a look of our Exploratory Data Analysis through below links and through Dashboard.
+
+Link for Exploratory Data Analysis :
+
+## Feature Engineering:
+
+:arrow_right: Feature engineering and Feature selection :
+
+Here we have selected the features for model prediction by performing feature engineering.
+1. Selecting the best features that are correlated and contributing to our current prioritization problem.
+2. For that we have observed data by plotting scatter plots and Heat maps between the features available.
+3. Here we have identified the contributing features like Age group, Health workers, comorbidities, population density, Gender,etc..
+
+Here You can have a look on our Feature Engineering Work : LINK
+
+## Training Machine Learning Model :
+
+Here we can divide the whole process of this solution into two parts. 
 
 #### **1. Prioritization for India**  
 
-Here, we'll have to predict that which part or state or population-distribution should get the vaccine, first. For that, we have to consider some attributes.  
-> States can be classified on the following criterion:  
+Here, we'll have to predict that which state or population-distribution should get the vaccine first. For that, we have to consider some metrics.  
+> States can be prioritized based on the below criteria:  
 > 1. Affect of COVID-19  
 >   * by ***zone*** (red, orange and green zone by gove.)  
 >   * by ***percentage*** of population **affected**, out of total  
@@ -31,59 +77,19 @@ Here, we'll have to predict that which part or state or population-distribution 
 > 2. Population Distribution
 >   * by ***age-group***  
 >   * by ***employment status***  
->   * by ***literacy-rate*** 
-> 3. Economy & Development status
->   * **Connectivity** to other states/district i.e; through transportation etc.. 
->   * **Interaction** among the population  
+>   * by ***literacy-rate***
+>   * by ***gender*** (Males are highly infected when compared to Female in India)
+>   * by ***comorbidities data***
 
-#### **2. Prioritization for a Particular State** 
+#### **2. Prioritization in district Level** 
 
-For a better estimate and results, it is good idea to provide another **prioritization in the state-level**. It will be helpful for the **state governments** to manage the delivery of the vaccine according to the vaccine production level.
+It would be a good idea to provide another **prioritization in district-level**. We can also prioritize the districts based on the above metrics, so that the vaccine delivery  will reach to the each and every corner of our country by considering their priority of need of vaccine.
 
-This prioritization can be done district-wise. 
+For Prioritising We have used ML clustering algorithms with hyper parameters through all the features and trained model used our ranking algorithms (considering several metrics) to figure out the urgency of vaccine delivery in each state.
 
-> District can be classified on the following criterion:  
+You can have a look into our model prediction using machine learning : LINK
 
-> 1. Affect of COVID-19  
->   * by **zone** (red, orange and green zone by gove.)  
->   * by **percentage** of population **affected**, out of total  
->   * by **death VS recovery** ratio  
-> 2. Population Distribution
->   * by **age-group**  
->   * by **rural VS urban** ratio  
->   * **Interaction** among the population  
-
-# Strategy
-
-## Data-Sources ℹ️  
-
-### Data Collection:
-
-Here we have to collect data from various sources in order to analysis the data so that we can train our model to prioritize the locations(by clustering) for vaccine delivery. For that we have to gather real-world data from various sources
-
-Gather the data based on covid-19 from states and central resources and health survey information in India
-
-  1. https://www.kaggle.com/imdevskp/covid19-corona-virus-india-dataset?select=patients_data.csv
-  2. https://www.kaggle.com/imdevskp/corona-virus-report
-  These are the datasets we refered till now
-
-### Data Analysis 🔍
-
-:diamond_shape_with_a_dot_inside: **To find the hidden patterns and relationship between features**
-
-:arrow_right: Feature engineering and Feature selection :
-Selecting the best features that are more correlated to find the target label.
-
-:arrow_right: Machine Learning Models :
-Train the data on multiple clustering models (K-means, Hierarchical clustering) with hyper parameters. 
-
-:arrow_right: Evaluate ranking algorithm :
-Evaluate a ranking algorithm to prioritize the clusters(locations). This includes several attributes, as clearly mentioned in solution approach above for prioritizing
-
-:arrow_right: Prediction :
-Supply the vaccine in the area, which was clustered with the more of covid cases, frontline health workers, doctors, people over 50 years of age and people with co-morbidities (by considering various discussed attributes)
-
-:arrow_right: UI Integration :
+## Building Interactive Dashboard :
 
 
 
