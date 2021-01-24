@@ -91,11 +91,12 @@ You can have a look into our model prediction using machine learning : LINK
 
 ## Building Interactive Dashboard :
 
+We have builded an Interactive Dashboard for visual Representation of covid 19 Risk Analysis and our Results.
 
+You can check our dashboard here : LINK
 
 ### Technology and tools:
 
-Python and several python libraries includes matplotlib, pandas, numpy and seaborn.
 
 ## Link To Colab File:
 https://colab.research.google.com/drive/1-xskYG3sgq1UoSeDN2cUdYlybt0yX0Gj#scrollTo=06pE0svcCR2H
